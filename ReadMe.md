@@ -1,7 +1,8 @@
-## captive-portal-attack
+# captive-portal-attack
 implementation of the captive portal attack
 
-#Configure: `apt install hostapd dnsmasq apache2`
+#Configure:
+`apt install hostapd dnsmasq apache2`
 
 move all the files from the html folder to `/var/www/html`
 
@@ -27,4 +28,4 @@ examples:
     sudo python3 captive_portal_atk.py -r -i <interface> -c <channel> -n <ssid> -e <eth>
     sudo python3 captive_portal_atk.py -t -i <interface>annel> -n <ssid> -e <eth>")
     print("sudo python3 captive_portal_atk.py -t -i <interface>")
-    ```
+```
