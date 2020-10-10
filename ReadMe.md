@@ -3,7 +3,7 @@
 Implementation of the captive portal attack
 
 
-#### Introduction
+## Introduction
 
 Wireless protocols have evolved drastically since 2003 after the invention of WPA in terms of secure access to Wi-Fi. Nowadays wireless networks have become a part of our daily lives. Almost every home, business, store, industry and institution has its own personal wireless AP (Access Point). Moreover, in order to make the Internet free (for free) for every detail, some organizations have set up public open Wi-Fi devices in almost every public place, such as airports, train stations, libraries, bus terminals, hotels, etc. But when it comes to security, even after applying the best security practices, the wireless network will still be less secure than the wired network.
 
@@ -17,6 +17,7 @@ Practical scenario: The logic behind the "Evil Twin" attack requires creating a 
 >   * [Program Instrumentation Options](#program-instrumentation-options)
 > * [Table of contents](#table-of-contents)
 > * [Installation](#installation)
+
 
 ## Requirements
 
@@ -42,10 +43,9 @@ To get started, you need to update the operating system and install the required
 sudo apt-get install update
 sudo apt-get install hostapd dnsmasq apache2
 ```
+After downloading the files from this page, move all the files from the html folder to `/var/www/html`
 
-move all the files from the html folder to `/var/www/html`
-
-#How to run:
+How to run the program:
 ```
 running modes:
     -h help
