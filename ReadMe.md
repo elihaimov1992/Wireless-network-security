@@ -68,3 +68,42 @@ examples:
     sudo python3 captive_portal_atk.py -t -i <interface>annel> -n <ssid> -e <eth>")
     print("sudo python3 captive_portal_atk.py -t -i <interface>")
 ```
+
+## Using Program (Code)
+
+#### `-h` or `--help` option
+
+```
+def printUsage():
+    print("usage: captive_portal_atk.py <mode> <extra variables>")
+    print("\n")
+
+    print("running modes: \n")
+    print("-h help")
+    print("-s scan        : Scan for Access Point")
+    print("-u deauth      : Deauthenticate client from Access Point")
+    print("-r run-ap      : Run Access Point")
+    print("-t stop        : Stop Access Point")
+
+    print("\n")
+
+    print("extra variables: \n")
+    print("-i interface   : Select Interface")
+    print("-b bssid       : MAC address, Access Point")
+    print("-d dmac        : MAC address, Destination")
+    print("-c channel     : Access Point channel")
+
+    print("\n")
+
+    print("how to run: \n")
+    print("sudo python3 captive_portal_atk.py -s -i <interface>")
+    print("sudo python3 captive_portal_atk.py -u -i <interface> -b <bssid> -d <dmac> -c <channel>")
+    print("sudo python3 captive_portal_atk.py -r -i <interface> -c <channel> -n <ssid> -e <eth>")
+    print("sudo python3 captive_portal_atk.py -t -i <interface>")
+```
+
+#### `-t` or `--stop` option
+`mode selected: <stop>`
+
+
+#### `-s` or `--scan` option
